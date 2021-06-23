@@ -83,9 +83,9 @@ Homepage Contains A Landing Part And Below It There Is Signup Cards
  2. Signup As Owner
 
 **Landing Part**
-<a><img src="https://i.ibb.co/6WrzbQP/Landing-Part.png" alt="Landing-Part" border="0"></a>
+<a href="https://i.ibb.co/6WrzbQP/Landing-Part.png"><img src="https://i.ibb.co/6WrzbQP/Landing-Part.png" alt="Landing-Part" border="0"></a>
 **Signup Cards**
-<a><img src="https://i.ibb.co/DGz7szC/Signup-Cards.png" alt="Signup-Cards" border="0"></a>
+<a href="https://i.ibb.co/DGz7szC/Signup-Cards.png"><img src="https://i.ibb.co/DGz7szC/Signup-Cards.png" alt="Signup-Cards" border="0"></a>
 -
 **Sign Up**
 -
@@ -99,7 +99,7 @@ Signup Form Consists Of The Following :
 6. Account Type
 7. Location(Auto)
 
-<a><img src="https://i.ibb.co/DwsQwBQ/Signup-Page.png" alt="Signup-Page" border="0"></a>
+<a href="https://i.ibb.co/DwsQwBQ/Signup-Page.png"><img src="https://i.ibb.co/DwsQwBQ/Signup-Page.png" alt="Signup-Page" border="0"></a>
 -
 **Sign In**
 -
@@ -135,7 +135,7 @@ This Option Displays All User's Post And Simply He Can Delete Any Of Them.
 -
 **Search For Owner Component**
 This Component Will Allow The Borrower To Lookup Owners, And Then View Their Profile,Posts.
-<a><img src="https://i.ibb.co/1707BzQ/Search-For-Owner.png" alt="Search-For-Owner" border="0"></a>
+<a href="https://i.ibb.co/1707BzQ/Search-For-Owner.png"><img src="https://i.ibb.co/1707BzQ/Search-For-Owner.png" alt="Search-For-Owner" border="0"></a>
 **Posts Component**
 This Component Will Display Posts Card Posted By Owners,And Borrowers Can Filter Them By Location,Date,Duration,Cost.
 When A Card Is Clicked, This Will Bring Up More Details About The Post,Owner's Profile,Owner's Location.
