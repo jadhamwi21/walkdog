@@ -1,0 +1,320 @@
+.FormContainer {
+	height: 100%;
+	min-height: 200vh;
+	width: fit-content;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Montserrat", sans-serif !important;
+}
+.FormTitle {
+	font-weight: 900 !important;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
+.ProfilePictureBox {
+	height: 250px;
+	width: 250px;
+	background-color: white;
+	border-radius: 10px;
+	display: grid;
+	place-items: center;
+	border: solid 2px transparent;
+}
+.ProfilePicturePreview {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+}
+.UploadButton {
+	background-color: #2e34cf !important;
+	position: relative;
+	color: white !important;
+	font-weight: 900 !important;
+	text-transform: none !important;
+	margin: 0 auto;
+}
+.UploadButton:hover {
+	cursor: pointer;
+}
+.UploadText {
+	text-align: center;
+}
+.UploadHTMLelement {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	outline: none;
+	visibility: hidden;
+}
+.UploadButtonWrapper {
+	height: fit-content;
+	width: fit-content;
+	margin: 5px auto;
+}
+.InputFieldsContainer {
+	height: fit-content;
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.TextField {
+	height: 25px;
+	border: solid 2px grey;
+	border-radius: 6px;
+	outline: none;
+	padding: 4px 0px;
+	margin-top: 40px;
+	font-weight: 900;
+	font-family: "Montserrat", sans-serif !important;
+	font-size: 20px;
+	width: auto;
+}
+.CapslockDiv {
+	position: absolute;
+	right: 0px;
+	bottom: 10px;
+	height: 20px;
+	width: 20px;
+}
+.TextField:focus {
+	border-color: #2e34cf;
+}
+.TextField::placeholder {
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	font-weight: 900;
+	font-family: "Montserrat", sans-serif !important;
+}
+.FindLocationField {
+	height: 60px !important;
+	border-radius: 6px !important;
+	outline: none !important;
+	padding: 14px 0px !important;
+	font-weight: 900 !important;
+	margin-top: 40px !important;
+	font-size: 20px !important;
+	width: 300px !important;
+	text-transform: none !important;
+	transition-property: background-color !important;
+	transition-timing-function: linear !important;
+	transition-duration: 0.5s !important;
+}
+
+.NameFieldsWrapper {
+	height: fit-content;
+	width: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.InvalidInputDivStyle {
+	height: 10px;
+	font-size: 14px;
+	width: 241px;
+	box-sizing: border-box;
+	text-align: center;
+	color: red;
+	font-weight: 600;
+}
+.TypeSelectorContainer {
+	margin: 30px 0px 0px 20px;
+	font-weight: 900 !important;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 300px;
+	user-select: none;
+	border-radius: 10px;
+	padding: 4px 0px;
+
+	border: solid 2px transparent;
+}
+.TypeButtonContainer {
+	height: fit-content;
+	width: fit-content;
+}
+.TypeButtonContainer:hover {
+	cursor: pointer;
+}
+.TypeButton {
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	background-color: #2e34cf;
+	border: solid 1.6px #2e34cf;
+	border-radius: 60px;
+	margin-right: 15px;
+	transition-property: background-color;
+	transition-duration: 0.3s;
+}
+.SubmitButtonWrapper {
+	height: fit-content;
+	margin: 20px auto;
+	width: 320px;
+}
+.SubmitButton {
+	background-color: #2e34cf !important;
+	color: white !important;
+	font-weight: 900 !important;
+	text-transform: none !important;
+	width: 100% !important;
+	border-radius: 10px !important;
+	padding: 12px 0px !important;
+}
+.Loader {
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	border: solid 4px grey;
+	border-bottom-color: #2e34cf;
+	border-top-color: #2e34cf;
+	animation: Spin 0.8s infinite linear;
+}
+@keyframes Spin {
+	0% {
+		transform: rotate(0deg) scale(1);
+	}
+	50% {
+		transform: rotate(180deg) scale(1.1);
+	}
+	100% {
+		transform: rotate(360deg) scale(1);
+	}
+}
+.AlreadyaMember {
+	margin-top: 10px !important;
+	text-align: center !important;
+	font-weight: 600 !important;
+}
+.Overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: transparent;
+	display: grid;
+	place-items: center;
+}
+.HelperBox {
+	height: 50%;
+	width: 30%;
+	display: grid;
+	place-items: center;
+	position: relative;
+	background-color: whitesmoke;
+	color: black;
+	animation-timing-function: cubic-bezier(0.38, 0.54, 0.72, 1.67);
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+	animation-name: ScaleIn;
+	border-radius: 12px;
+	color: #2e34cf !important;
+}
+.ExitButtonContainer {
+	position: absolute;
+	top: 10px;
+	right: 2px;
+	height: fit-content;
+	width: fit-content;
+}
+.ExitButtonContainer:hover {
+	cursor: pointer;
+}
+.ExitButtonContainer:active {
+	opacity: 0.4;
+}
+.ExitButton {
+	height: 25px;
+	width: 50px;
+}
+
+.HelperBoxContent {
+	font-weight: 800 !important;
+	color: #2e34cf !important;
+}
+@keyframes ScaleIn {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+@keyframes ScaleOut {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(0);
+	}
+}
+.SignupSuccessPopup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgb(0, 0, 0, 0.7);
+	display: grid;
+	place-items: center;
+}
+.SignupSuccessBox {
+	height: 50%;
+	width: 50%;
+	display: grid;
+	place-items: center;
+}
+.SignupSuccessContent {
+	font-weight: 900 !important;
+	animation-name: SlideIn !important;
+	animation-duration: 0.7s !important;
+	animation-timing-function: ease-in !important;
+	text-align: center !important;
+}
+.SignupSuccessSignInLink {
+	outline: none !important;
+	text-decoration: none;
+	color: black !important;
+	font-weight: 600 !important;
+	display: block !important;
+}
+@keyframes SlideIn {
+	from {
+		transform: translateX(-20px);
+		opacity: 0;
+		transition: opacity 0.3s ease-in !important;
+	}
+	to {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+@media only screen and (max-width: 764px) {
+	.NameFieldsWrapper {
+		flex-direction: column;
+		width: 100%;
+	}
+	.InputFieldsContainer > div {
+		flex-direction: column;
+	}
+	.TypeSelectorContainer {
+		flex-direction: column;
+		width: fit-content;
+		margin: 0px;
+	}
+	.TypeButtonContainer {
+		margin-top: 1em;
+	}
+	.SignupSuccessBox {
+		width: 100%;
+		height: 60%;
+	}
+}

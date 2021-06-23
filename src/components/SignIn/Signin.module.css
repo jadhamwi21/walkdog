@@ -1,0 +1,84 @@
+.Container {
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	place-items: center;
+	text-align: center;
+}
+.FormContainer {
+	height: fit-content;
+	width: 22%;
+}
+.SignInHeader {
+	font-weight: 900 !important;
+	margin-bottom: 4rem !important;
+}
+.TextField {
+	border: solid 2.4px black;
+	border-radius: 6.5px;
+	height: 30px;
+	width: 100%;
+	margin-bottom: 3.2rem;
+}
+.TextField::placeholder {
+	font-weight: bold !important;
+	font-size: 1rem;
+	color: black;
+	text-align: center;
+	font-family: "Montserrat", sans-serif !important;
+}
+.SignInButton {
+	text-transform: none !important;
+	background-color: #2e34cf !important;
+	color: white !important;
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: 900 !important;
+	width: 100% !important;
+	font-size: 18px !important;
+	border-radius: 8px !important;
+}
+.SignInFinishContainer {
+	font-family: "Montserrat", sans-serif !important;
+	margin: 30px auto;
+	font-weight: 900 !important;
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+	height: fit-content;
+	justify-content: space-between;
+	align-items: center;
+}
+.SignInFinishContainer ~ div {
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: 900 !important;
+}
+.SignInFinishFlexItem {
+	height: fit-content;
+}
+.SignUpLink {
+	box-sizing: border-box;
+	text-decoration: none !important;
+	outline: none !important;
+	color: black !important;
+	border-bottom: solid 1.2px black;
+	padding-bottom: 4px;
+}
+.HiddenLink {
+	visibility: hidden;
+}
+.ErrorDiv {
+	display: grid;
+	place-items: center;
+	color: red;
+	font-size: 20px;
+	height: fit-content;
+	width: fit-content;
+}
+@media only screen and (max-width: 764px) {
+	.FormContainer {
+		width: 60%;
+	}
+	.SignInFinishContainer {
+		flex-direction: column;
+	}
+}

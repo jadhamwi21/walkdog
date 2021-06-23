@@ -1,0 +1,25 @@
+.PostFallbackContainer {
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	place-items: center;
+}
+.Flexbox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: red;
+	font-size: 25px;
+	font-weight: 800;
+}
+.TryAgainButton {
+	padding: 15px !important;
+	background-color: gray !important;
+}
+.TryAgainButton:hover {
+	cursor: pointer;
+}
+.Link {
+	color: black !important;
+}

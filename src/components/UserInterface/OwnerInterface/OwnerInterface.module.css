@@ -1,0 +1,590 @@
+.Container {
+	height: fit-content;
+	width: 100vw;
+}
+.SelectionHeader {
+	height: fit-content;
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	margin: 20px auto;
+}
+.SelectionButton {
+	background-color: black !important;
+	color: white !important;
+	text-transform: none !important;
+	padding: 8px 10px !important;
+	color: white !important;
+	font-size: 30px;
+	font-weight: 900 !important;
+	font-family: "Montserrat", sans-serif !important;
+	width: 160px !important;
+}
+@keyframes slideFromAbove {
+	from {
+		transform: translateY(-200%);
+	}
+	to {
+		transform: translateY(0%);
+	}
+}
+.SelectedOptionDisplayContainer {
+	height: 100%;
+	min-height: 100vh;
+	width: 100%;
+	margin: 40px auto;
+}
+
+.InputField {
+	height: 25px;
+	border-radius: 6px;
+	border: solid 2px grey;
+	outline: none;
+	padding: 4px 0px;
+	font-weight: 900;
+	font-family: "Montserrat", sans-serif !important;
+	font-size: 20px;
+	text-align: center;
+	margin: 30px auto !important;
+}
+.InputField:focus {
+	border-color: #2e34cf;
+}
+
+.InputField::placeholder {
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	font-weight: 900;
+	font-family: "Montserrat", sans-serif !important;
+}
+.FieldWrapper {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0px auto;
+}
+
+.DogPictureFrame {
+	margin: 0 auto;
+	height: 200px;
+	width: auto;
+	max-width: 200px;
+	background-color: black;
+	display: grid;
+	place-items: center;
+	margin-bottom: 20px;
+	border: solid 2px white;
+	border-radius: 6px;
+}
+.DogPictureFrame:hover {
+	cursor: pointer;
+}
+.ClickToUploadText {
+	font-family: "Montserrat Subrayada", sans-serif;
+	color: white;
+	font-weight: 600;
+	height: fit-content;
+	width: fit-content;
+	margin: 0 auto;
+}
+.InputFieldsWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+.DateWrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0px auto;
+}
+.FormWrapper {
+	height: fit-content;
+	width: 30%;
+	margin: 60px auto;
+}
+.CostComponentWrapper {
+	height: fit-content;
+	width: 80%;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+.CurrencySelector {
+	border: solid 2px grey;
+	border-radius: 3px;
+	height: 35px !important;
+	font-family: "Montserrat Subrayada", sans-serif;
+	width: 15%;
+	min-width: 60px;
+	outline: none;
+}
+.CurrencySelector:focus {
+	border-color: #2e34cf;
+}
+.DurationWrapper {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	height: 10%;
+	margin: 0px auto;
+}
+.ArrowImage {
+	height: 10%;
+	width: 10%;
+}
+.DogBehaviorWrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: fit-content;
+	width: 30%;
+	margin: 0px auto;
+}
+.AggresiveText {
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: 800 !important;
+	color: #2e34cf !important;
+	height: fit-content !important;
+	width: fit-content !important;
+	margin: 0px !important;
+}
+.PostButton {
+	text-transform: none !important;
+	background-color: #2e34cf !important;
+	padding: 10px 30px !important;
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: 900 !important;
+	color: white !important;
+	margin-top: 20px !important;
+	width: 90px !important;
+}
+.DogPicture {
+	height: 100%;
+	width: 100%;
+}
+.ErrorContainer {
+	display: block;
+	color: red;
+	height: 30px;
+	width: 100%;
+	position: absolute;
+	top: 80%;
+	text-align: center;
+}
+.PopupContainer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: grid;
+	place-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.PostUploadedPopupBox {
+	height: 400px;
+	width: 300px;
+	display: grid;
+	place-items: center;
+	background-color: white;
+	color: black;
+}
+.ClosePopupButton {
+	text-transform: none !important;
+	background-color: #2e34cf !important;
+	padding: 10px 30px !important;
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: 900 !important;
+	color: white !important;
+	margin: 10px auto !important;
+}
+.CloseButtonWrapper {
+	height: fit-content;
+	width: fit-content;
+	margin: 0 auto;
+}
+/* Edit Post*/
+.EditPostContainer {
+	width: 100%;
+	height: 100%;
+	min-height: 50vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 100px 0px;
+	flex-wrap: wrap;
+}
+.SlidesContainer {
+	height: fit-content;
+	width: 100%;
+}
+.DogPictureWrapper {
+	height: 120px;
+	width: 120px;
+	margin: 0px auto;
+	border-radius: 12px;
+	position: relative;
+	left: -10px;
+}
+.DogPictureInCard {
+	height: 100%;
+	width: 100%;
+	border-radius: 12px;
+}
+.Card {
+	height: 450px;
+	width: fit-content;
+	padding-right: 30px;
+	margin-top: 50px;
+	background-color: #1f2232 !important;
+	color: white !important;
+}
+.CardContent {
+	height: 90% !important;
+	width: 100% !important;
+	display: flex !important;
+	flex-direction: column !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	text-align: center;
+}
+.EditButton {
+	background-color: #2e34cf !important;
+	text-transform: none !important;
+	font-weight: 900 !important;
+	color: white !important;
+	font-family: "Montserrat", sans-serif !important;
+}
+.ModalContainer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	display: grid;
+	place-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 11;
+}
+.Modal {
+	height: 100%;
+	width: 80%;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow-y: scroll;
+}
+.ModalLeftDiv {
+	height: 100%;
+	width: 50%;
+	display: grid;
+	place-items: center;
+}
+.ModalRightDiv {
+	height: 100%;
+	width: 50%;
+	display: grid;
+	place-items: center;
+}
+.DogPictureInEditPost {
+	height: 250px !important;
+	width: 100%;
+	height: auto;
+	max-width: 250px;
+}
+.UploadButton {
+	text-transform: none !important;
+	background-color: #2e34cf !important;
+	padding: 10px !important;
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: 900 !important;
+	color: white !important;
+}
+.EditDogPictureWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	animation-timing-function: ease-in-out;
+	animation-duration: 0.6s;
+	animation-delay: 0.2s;
+	animation-name: FadeIn;
+	animation-fill-mode: backwards;
+}
+@keyframes FadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.ModalRightDivFormContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 90%;
+	width: 100%;
+	animation-name: FadeIn;
+	animation-duration: 0.6s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0.8s;
+	animation-fill-mode: backwards;
+}
+.SaveButton {
+	text-transform: none !important;
+	background-color: #2e34cf !important;
+	padding: 8px 50px !important;
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: 900 !important;
+	color: white !important;
+}
+.IndicatorContainer {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: grid;
+	place-items: center;
+}
+.IndicatorWrapper {
+	height: fit-content;
+	width: fit-content;
+	display: flex;
+	flex-direction: space-between;
+	align-items: center;
+}
+.IndicatorWrapper > div {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: white;
+	animation-name: bouncingBall;
+	animation-duration: 0.2s;
+	animation-timing-function: cubic-bezier(0, 0.65, 1, 1);
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.IndicatorWrapper > div:nth-child(1) {
+	animation-delay: 0.06s;
+}
+.IndicatorWrapper > div:nth-child(2) {
+	animation-delay: 0.12s;
+}
+.IndicatorWrapper > div:nth-child(3) {
+	animation-delay: 0.18s;
+}
+.IndicatorWrapper > div:nth-child(4) {
+	animation-delay: 0.24s;
+}
+.IndicatorWrapper > div:nth-child(5) {
+	animation-delay: 0.3s;
+}
+@keyframes bouncingBall {
+	from {
+		transform: translateY(0);
+	}
+	to {
+		transform: translateY(-40px);
+	}
+}
+.DeleteButton {
+	background-color: #2e34cf !important;
+	text-transform: none !important;
+	font-weight: 900 !important;
+	color: white !important;
+	font-family: "Montserrat", sans-serif !important;
+}
+.ConfirmationModalContainer {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	width: 100vw;
+	z-index: 2;
+}
+.ConfirmationModalDiv {
+	background-color: white;
+	height: 35%;
+	width: 35%;
+	display: grid;
+	place-items: center;
+	font-family: "Montserrat", sans-serif !important;
+}
+.ConfirmationModalDiv > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 40%;
+	width: 80%;
+}
+.ConfirmationText {
+	color: black;
+	font-weight: 900;
+	width: 70%;
+}
+.ConfirmationChoicesWrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 60%;
+}
+.ConfirmationChoiceButton {
+	font-family: "Montserrat", sans-serif !important;
+	padding: 5px 10px;
+	background-color: #1f2232 !important;
+	color: white !important;
+	font-weight: 900 !important;
+}
+.NoPostText {
+	font-family: "Montserrat Subrayada", sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+}
+.IndicatorWrapper {
+	height: fit-content;
+	width: fit-content;
+	display: flex;
+	flex-direction: space-between;
+	align-items: center;
+}
+@media only screen and (max-width: 764px) {
+	.DateWrapper {
+		flex-direction: column;
+	}
+	.CostComponentWrapper {
+		width: 100%;
+		justify-content: center;
+	}
+	.CostComponentWrapper .FieldWrapper {
+		margin: 0px;
+		width: 25%;
+	}
+	.CostComponentWrapper > select {
+		width: 17%;
+	}
+	.DurationWrapper {
+		flex-direction: column;
+	}
+	.ArrowImage {
+		transform: rotateZ(90deg);
+	}
+	.SelectionHeader {
+		flex-direction: column;
+	}
+	.SelectionButton {
+		margin-top: 10px !important;
+	}
+	.SelectionButton:first-child {
+		margin-top: 0px !important;
+	}
+	.DogBehaviorWrapper {
+		width: fit-content;
+		justify-content: center;
+	}
+	.AggresiveText {
+		margin-right: 5px !important;
+	}
+	.FormWrapper {
+		width: 75%;
+	}
+	.Modal {
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 85vw;
+		height: 80vh;
+	}
+	.InputField {
+		width: 80% !important;
+	}
+	.DurationWrapper .FieldWrapper {
+		width: 50%;
+	}
+	.ModalLeftDiv {
+		width: 100%;
+		margin-top: 40px;
+		height: fit-content;
+	}
+	.ModalRightDiv {
+		width: 100%;
+		align-items: center;
+		height: fit-content;
+		margin-bottom: 150px;
+	}
+	.ModalRightDivFormContainer {
+		width: 100%;
+	}
+
+	.ModalContainer {
+		overflow-y: scroll;
+		height: 100vh;
+		width: 100vw;
+	}
+	.EditPostContainer {
+		width: 85%;
+		margin: 0 auto;
+	}
+	.DogPictureInEditPost {
+		width: 50%;
+		height: auto !important;
+		min-height: 100px;
+	}
+	.DogPictureWrapper {
+		margin: 0 auto;
+	}
+	.ConfirmationModalDiv {
+		width: 90%;
+		height: 25%;
+		padding-bottom: 20px;
+	}
+	.ConfirmationText {
+		width: 100%;
+	}
+	.ConfirmationChoicesWrapper {
+		width: 80%;
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.FieldWrapper {
+		width: 100%;
+	}
+	.PostUploadedPopupBox {
+		height: 50%;
+		width: 50%;
+	}
+	.NoPostText {
+		width: max-content;
+		margin: 0 auto;
+		font-size: 1em;
+	}
+}
