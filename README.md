@@ -83,9 +83,9 @@ Homepage Contains A Landing Part And Below It There Is Signup Cards
  2. Signup As Owner
 
 **Landing Part**
-<a href="https://i.ibb.co/6WrzbQP/Landing-Part.png"><img src="https://i.ibb.co/6WrzbQP/Landing-Part.png" alt="Landing-Part" border="0"></a>
+![Landing Part](https://i.ibb.co/6WrzbQP/Landing-Part.png)
 **Signup Cards**
-<a href="https://i.ibb.co/DGz7szC/Signup-Cards.png"><img src="https://i.ibb.co/DGz7szC/Signup-Cards.png" alt="Signup-Cards" border="0"></a>
+![Signup Cards](https://i.ibb.co/DGz7szC/Signup-Cards.png)
 -
 **Sign Up**
 -
@@ -99,20 +99,21 @@ Signup Form Consists Of The Following :
 6. Account Type
 7. Location(Auto)
 
-<a href="https://i.ibb.co/DwsQwBQ/Signup-Page.png"><img src="https://i.ibb.co/DwsQwBQ/Signup-Page.png" alt="Signup-Page" border="0"></a>
+
+![Signup Page](https://i.ibb.co/DwsQwBQ/Signup-Page.png)
 -
 **Sign In**
 -
 Sign In Is By Email And Password
-<a href="https://ibb.co/k5vK5DP"><img src="https://i.ibb.co/S5GN5mZ/Sign-In-Page.png" alt="Sign-In-Page" border="0"></a>
+![Signin Page](https://i.ibb.co/S5GN5mZ/Sign-In-Page.png)
 
 ---
 **Owner Interface**
 -
 This Interface Has 3 Options:
 1. Create New Post.
-2. Edit Post.
-3. Delete Post.
+10. Edit Post.
+11. Delete Post.
 ---
 **Creating New Post :**
 Selecting This Option Will Show A Form Which Should Be Filled With The Post Details Which Includes:
@@ -135,7 +136,7 @@ This Option Displays All User's Post And Simply He Can Delete Any Of Them.
 -
 **Search For Owner Component**
 This Component Will Allow The Borrower To Lookup Owners, And Then View Their Profile,Posts.
-<a href="https://i.ibb.co/1707BzQ/Search-For-Owner.png"><img src="https://i.ibb.co/1707BzQ/Search-For-Owner.png" alt="Search-For-Owner" border="0"></a>
+![enter image description here](https://i.ibb.co/1707BzQ/Search-For-Owner.png)
 **Posts Component**
 This Component Will Display Posts Card Posted By Owners,And Borrowers Can Filter Them By Location,Date,Duration,Cost.
 When A Card Is Clicked, This Will Bring Up More Details About The Post,Owner's Profile,Owner's Location.
